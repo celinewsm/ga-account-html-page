@@ -20,7 +20,7 @@
     course or the Immersive Web Development course. </p>
 
 <form action="success.html">
-    <p>City:
+  <p>City:
     <select>
       <option>Hong Kong</option>
       <option>London</option>
@@ -34,15 +34,23 @@
   </p>
 
     <p>Course:
-      <input type="radio" name="course"> UX
-      <input type="radio" name="course" checked> Web Dev
+      <label>
+        <input type="radio" name="course"> UX
+      </label>
+      <label>
+        <input type="radio" name="course" checked> Web Dev
+      </label>
     </p>
 
     <p>Name: <input type="text"></p>
     <p>Email: <input type="text"></p>
     <p>Password: <input type="password"></p>
 
-    <p><input type="checkbox" checked> Yes, subscribe me to the General Assembly student newsletter</p>
+    <p>
+      <label>
+        <input type="checkbox" checked> Yes, subscribe me to the General Assembly student newsletter
+      </label>
+    </p>
 
     <input type="submit" value="Subscribe">
 </form>
